@@ -1,9 +1,19 @@
 import React from 'react';
+import Logo from '../../assets/logo.png';
 
 const Header = () => {
   return(
-    <header className="App-header">
-      <h1>This is Unit Testing Practise</h1>
+    <header className="header">
+      <div className="container header-content">
+        <a
+          href="/"
+          className="logo">
+            Unit Testing App
+        </a>
+        <div className="nav">
+          <img src={Logo} alt="Logo"/>
+        </div>
+      </div>
     </header>
   );
 };
