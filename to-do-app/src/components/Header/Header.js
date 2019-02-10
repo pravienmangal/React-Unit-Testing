@@ -11,7 +11,7 @@ const Header = () => {
             Unit Testing App
         </a>
         <div className="nav">
-          <img src={Logo} alt="Logo"/>
+          <img className="logo-img" src={Logo} alt="Logo"/>
         </div>
       </div>
     </header>
