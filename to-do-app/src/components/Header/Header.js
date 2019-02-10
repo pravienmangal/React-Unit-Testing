@@ -6,6 +6,6 @@ const Header = () => {
       <h1>This is Unit Testing Practise</h1>
     </header>
   );
-}
+};
 
 export default Header;
